@@ -22,7 +22,7 @@ public class TiposVariaveis {
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
-        short numeroCurto2 = numeroNormal; // Esta linha vai apresentar erro de compilação!
+        //short numeroCurto2 = numeroNormal; // Esta linha vai apresentar erro de compilação!
 
         /*
          * esta linha é considerada como declaração de variável iniciamos a existência
@@ -46,7 +46,7 @@ public class TiposVariaveis {
          */
         final double VALOR_DE_PI = 3.14;
 
-        VALOR_DE_PI = 3.15; // Esta linha vai apresentar erro de compilação!
+       // VALOR_DE_PI = 3.15; // Esta linha vai apresentar erro de compilação!
 
     }
 }
