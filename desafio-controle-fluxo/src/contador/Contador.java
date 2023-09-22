@@ -11,7 +11,9 @@ public class Contador {
         System.out.println("Digite o Primeiro Parametro: ");
         int parametroUm = terminal.nextInt();
 
-        System.out.println("Digite o Segundo Parametro: ");
+        System.out
+                .println("Digite o Segundo Parametro, Obs.: Esse segundo parametro tem que ser mair que o pr10imeiro:  ");
+
         int parametroDois = terminal.nextInt();
 
         try {
